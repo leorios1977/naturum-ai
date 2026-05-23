@@ -27,7 +27,7 @@ export function TrackedAffiliateLink({
   }, [productId, retailer])
 
   return (
-    
+    <a
       href={url}
       target="_blank"
       rel="sponsored noopener noreferrer"
